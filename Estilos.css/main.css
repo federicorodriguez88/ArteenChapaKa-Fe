@@ -1,0 +1,1069 @@
+
+/* css-INDEX */
+
+
+/* header index */
+
+.headerindex{
+    background-color: #012a4a;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.headerindex img{
+
+    width: 100px;
+    height: 150px;
+    
+}
+
+/* nav index */
+
+.navindex ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small; color: #ffffff;
+    
+   
+}
+
+.navindex{
+    background-color: #012a4a; font-size: 20px;
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+  
+
+/* main index */
+
+
+.mainindex{
+    background-color: #014f86;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+
+.somosindex{
+    font-family: Georgia, 'Times New Roman', Times, serif;color: #ffffff; font-size: 10px;
+    max-width: 200px;
+    height: 200px; 
+    padding: 60px;
+    text-align:center;
+
+   
+   
+}
+
+.espesoresdisponibles{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    max-width: 200px;
+    height: 100px;
+    padding:0 5px;
+   margin: auto;
+
+    
+}
+
+.consultas{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    max-width: 200px;
+    height: 400px;
+    padding: 60px;
+   
+    
+}
+
+.encontramos{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    max-width: 200px;
+    height: 300px;
+    padding: 60px;
+    flex-wrap:wrap;
+
+   
+}
+.mapa iframe{
+  width: 200px;
+  height: 200px;  
+}
+/* footer index */
+
+.footerindex{
+    background-color: #468faf;
+    padding: 5px 5px;
+    
+}
+
+
+/* css CATALOGO DE PANELES */
+
+/* header paneles */
+
+.titulopaneles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #012a4a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    font-size:small;
+    padding: 10px 10px;
+    
+}
+
+.titulopaneles img{
+      width: 100px;
+      height: 150px;
+}
+
+/* nav paneles */
+
+.navpaneles ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px; color: #ffffff;
+    
+}
+
+.navpaneles{
+    background-color: #012a4a;
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* main paneles */
+
+.menupaneles{
+    background-color: #014f86;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.modelo1 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+    
+    
+}
+
+.modelo2 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+}
+
+.modelo3 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+}
+
+.modelo4 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+}
+
+
+/* footer paneles */
+
+.footerpaneles{
+    background-color: #468faf;
+    padding: 5px 5px;
+   
+
+}
+
+/* css CATALOGO DE CUADROS */
+
+.body-container{
+    display: grid;
+    grid-template-areas: 
+    "header nav"
+    "main" "main"
+    "footer" "footer"; 
+}
+
+/* header cuadros */
+ 
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #012a4a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    font-size:small;
+    padding: 10px 10px;
+
+    }
+
+    .header-container img{
+
+    width: 100px;
+    height: 150px;
+    }
+
+
+/* nav cuadros */
+
+.nav-container{
+    background-color: #012a4a;
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container ul li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px; color: #ffffff;
+}
+
+
+
+/* main cuadros */
+
+.main-container{
+    background-color: #014f86;
+    display: grid;
+   
+    justify-content: space-around;
+    align-items:center; 
+}
+
+.item1 img{
+    height: 180px;
+    width: 180px;  
+    padding: 60px 60px;   
+}
+.item2 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+}
+
+.item3 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;   
+}
+
+.item4 img{
+    height: 180px;
+    width: 180px;
+    padding: 60px 60px;
+}
+
+/* footer cuadros */
+
+.footer-container{
+    background-color: #468faf;
+    padding: 5px 5px;
+   
+}
+
+/* css TRABAJA CON NOSOTROS */
+
+
+/* header trabaja */
+
+.headertrabaja{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    font-size: small;
+    background-color: #012a4a;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headertrabaja img{
+    width: 100px;
+    height: 150px;
+}
+
+/* nav trabaja */
+
+.navtrabaja{
+    background-color: #012a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.navtrabaja ul li{
+    padding: 0px 10px;
+}
+
+.navtrabaja ul li a{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #ffffff; font-size: larger;
+}
+
+
+/* main trabaja */
+
+.maintrabaja{
+
+    background-color: #014f86;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.graciastrabaja{
+    padding: 20px 20px;
+}
+
+
+/* footer trabaja  */
+
+.footertrabaja{
+
+    background-color: #468faf;
+    padding: 5px 5px;
+  
+   
+   
+}
+
+/* css NUESTROS CLIENTES  */
+
+
+/* header clientes */
+
+.tituloclientes{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    font-size:small;
+    background-color: #012a4a;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tituloclientes img{
+   width: 100px;
+   height: 150px; 
+}
+/* nav clientes */
+
+.navclientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #012a4a;
+    padding: 10px 10px;
+    
+    
+}
+
+
+.navclientes ul li {
+    
+    
+    padding: 0 10px;   
+ }  
+
+ .navclientes ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #ffffff;
+    font-size:larger
+
+ }
+
+/* main clientes */
+
+.menuclientes{
+    background-color: #014f86;
+    padding: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    
+}
+
+/* footer clientes */
+
+.footerclientes{
+
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* GENERALES */
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+
+}
+
+
+p{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-style:ridge;
+border-color: black;}
+
+footer{
+    background-color: #ffe4c4;
+}
+
+
+img{
+    size: 100px 100px;
+}
+
+
+
+/* AQUI COMIENZA EL MEDIA QUERIES */
+
+
+
+
+@media screen and (min-width:768px) {
+/* css-INDEX */
+
+
+/* header index */
+
+
+.headerindex {
+
+    background-color: #012a4a;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    left: 8px;
+    top: 0px;
+    right: 8px;
+    
+}
+
+.headerindex img{
+    width: 100px;
+    height: 150px;
+    animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+ 
+    0%{
+         box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    30%{
+        box-shadow: 0 0 0 15px rgb(255, 255, 255);
+    }
+
+    65%{
+        box-shadow: 0 0 0 10px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+}
+
+
+/* nav index */
+.navindex{
+    background-color: #012a4a;
+    padding: 2px 2px;
+   
+   
+}
+
+.navindex ul li {
+    display: inline;
+    padding: 0 2px;
+    background-color:#012a4a;
+    
+}
+.navindex ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large; color: #ffffff;
+    padding: 10px 10px;
+   
+}
+
+/* main index */
+
+
+.mainindex{
+    background-color: #014f86;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   padding-top: 150px;
+right: 8px;
+left: 8px;
+
+}
+
+
+.somosindex{
+    font-family: Georgia, 'Times New Roman', Times, serif;color: #ffffff; font-size: larger;
+    
+}
+
+.espesoresdisponibles{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff; font-size:large;
+    width: 500px ;
+    height: 300px;
+    padding: 60px;
+    
+}
+
+.consultas{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    width: 500px ;
+    height: 500px;
+    padding: 60px;
+   
+    
+}
+
+.encontramos{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    width: 500px ;
+    height: 500px;
+    padding: 70px;
+    
+    
+}
+
+
+
+/* footer index */
+
+.footerindex{
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* css CATALOGO DE PANELES */
+
+/* header paneles */
+
+.titulopaneles{
+    background-color: #012a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 8px;
+    top: 0px;
+    right: 8px;
+    
+}
+
+.titulopaneles img{
+
+    width: 100px;
+    height: 150px;
+    animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+ 
+    0%{
+         box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    30%{
+        box-shadow: 0 0 0 8px rgb(255, 255, 255);
+    }
+
+    65%{
+        box-shadow: 0 0 0 7px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+}
+
+/* nav paneles */
+
+.navpaneles{ 
+    padding: 10px 10px;
+    background-color: #012a4a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: large;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.navpaneles ul li {
+    display: inline;
+    padding: 0 10px;
+    background-color:#012a4a;
+    
+}
+.navpaneles ul li a{
+    color: #ffffff;
+    font-size: large; 
+    padding: 0 10px
+}
+
+/* main paneles */
+
+.menupaneles{
+    padding-top: 150px;
+    font-size: larger;
+    background-color: #014f86;
+    display: grid;
+    grid-template-areas: 
+    "modelo1 img" "modelo2 img"
+    "modelo3 img" "modelo4 img";
+}
+
+.modelo1{
+    padding: 60px 60px;
+}
+
+.modelo1 img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.modelo1 img:hover{
+    transform: scale(1.4);
+}
+
+.modelo2{
+    padding: 60px 60px;
+   
+}
+.modelo2 img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.modelo2 img:hover{
+
+    transform: scale(1.4)
+}
+
+.modelo3{
+    padding: 60px 60px;
+}
+
+.modelo3 img{
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.modelo3 img:hover{
+
+    transform: scale(1.4)
+}
+
+.modelo4{
+    padding: 60px 60px;
+}
+
+.modelo4 img{
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.modelo4 img:hover{
+
+    transform: scale(1.4)
+}
+
+
+/* footer paneles */
+
+.footerpaneles{
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* css CATALOGO DE CUADROS */
+
+.body-container{
+    display: grid;
+    grid-template-areas: 
+    "header nav"
+    "main" "main"
+    "footer" "footer"; 
+}
+
+/* header cuadros */
+ 
+.header-container{
+
+    background-color: #012a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 8px;
+    top: 0px;
+    right: 8px;
+  
+}
+
+.header-container img{
+
+    width: 100px;
+    height: 150px;
+    animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+ 
+    0%{
+         box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    30%{
+        box-shadow: 0 0 0 8px rgb(255, 255, 255);
+    }
+
+    65%{
+        box-shadow: 0 0 0 7px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+}
+
+
+/* nav cuadros */
+
+.nav-container{
+    padding: 10px 10px;
+    background-color: #012a4a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: large;
+    display: flex;
+    justify-content: center;
+  
+}
+.nav-container ul li{
+ display: inline;
+ padding: 0 10px;
+ font-size:large;   
+}
+
+.nav-container ul li a {
+    color: #ffffff;
+    font-size: large;
+    padding: 0 10px;
+}
+
+
+
+/* main cuadros */
+
+.main-container{
+    padding-top: 150px;
+    font-size: larger;
+    background-color: #014f86;
+    display: grid;
+    grid-template-areas:
+    "item1 img" "item2 img" 
+    "item3 img" "item4 img";
+    
+}
+
+.item1{
+    
+    padding: 60px 60px;   
+}
+
+.item1 img{
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.item1 img:hover{
+
+    transform: scale(1.4)
+}
+
+
+.item2{
+
+    padding: 60px 60px;
+}
+
+.item2 img{
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.item2 img:hover{
+
+    transform: scale(1.4);
+}
+.item3{
+    
+    padding: 60px 60px;   
+}
+
+.item3 img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.item3 img:hover{
+    transform: scale(1.4);
+}
+
+.item4{
+    
+    padding: 60px 60px;
+}
+
+.item4 img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.item4 img:hover{
+
+    transform: scale(1.4);
+}
+
+
+
+/* footer cuadros */
+
+.footer-container{
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* css TRABAJA CON NOSOTROS */
+
+
+/* header trabaja */
+
+.headertrabaja{
+    background-color: #012a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 8px;
+    top: 0px;
+    right: 8px;
+}
+
+.headertrabaja img{
+    width: 100px;
+    height: 150px;
+    animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+ 
+    0%{
+         box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    30%{
+        box-shadow: 0 0 0 8px rgb(255, 255, 255);
+    }
+
+    65%{
+        box-shadow: 0 0 0 7px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+}
+
+/* nav trabaja */
+
+.navtrabaja{
+    background-color: #012a4a;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.navtrabaja ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.navtrabaja ul li a{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #ffffff; font-size: large;
+}
+
+
+/* main trabaja */
+
+.maintrabaja{
+    padding-top: 200px ;
+    background-color: #014f86;
+    display: grid;
+    grid-template-areas: 
+    "datrostrabaja form" "sectortrabaja form"
+    "gracias trabaja";
+}
+
+.graciastrabaja{
+    padding: 20px 20px;
+}
+
+
+/* footer trabaja  */
+
+.footertrabaja{
+
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* css NUESTROS CLIENTES  */
+
+
+/* header clientes */
+
+.tituloclientes{
+
+    background-color: #012a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 8px;
+    top: 0px;
+    right: 8px;
+}
+
+.tituloclientes img{
+    width: 100px;
+    height:150px
+}
+/* nav clientes */
+
+.navclientes{
+    display: flex;
+    justify-content: center;
+    background-color: #012a4a;
+    padding: 10px 10px;
+    
+    
+}
+
+
+.navclientes ul li {
+    
+    display: inline;
+    padding: 0 10px;   
+ }  
+
+ .navclientes ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #ffffff;
+    font-size:large;
+
+ }
+
+/* main clientes */
+
+.menuclientes{
+    padding-top: 200px;
+    background-color: #014f86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+    
+}
+
+/* footer clientes */
+
+.footerclientes{
+
+    background-color: #468faf;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* GENERALES */
+
+
+
+
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+
+}
+
+
+
+
+
+
+    
+
+p{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-style:ridge;
+border-color: black;}
+
+footer{
+    background-color: #ffe4c4;
+}
+
+
+img{
+    size: 100px 100px;
+}
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
